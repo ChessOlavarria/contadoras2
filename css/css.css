@@ -82,6 +82,8 @@ footer {
     margin-top: auto; /* Empuja el footer al final */
 }
 
+/* ... (otros estilos) ... */
+
 .section-white {
     background-color: #ffffff;
     padding: 4em 0;
@@ -89,9 +91,29 @@ footer {
     color: #050505;
     position: relative;
     z-index: 1;
-    margin-top: 85vh;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Agrega transiciones para color de fondo, color del texto y transformación */
+    margin-top: 85vh; /* Ajusta el valor de margen-top según tu preferencia */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
+
+/* ... (otros estilos) ... */
+
+/* Media Queries para tamaños de pantalla */
+@media (max-width: 768px) {
+    /* Ajusta los estilos para pantallas más pequeñas aquí */
+    .section-content {
+        font-size: 1.2em; /* Ejemplo de ajuste de fuente */
+    }
+    
+    /* Ajusta el margen superior de .section-white para dispositivos móviles */
+    .section-white {
+        margin-top: 40vh; /* Ajusta el valor según tu preferencia */
+    }
+
+    /* Puedes agregar más ajustes aquí */
+}
+
+/* ... (otros estilos) ... */
+
 
 .section-white:hover {
     background-color: #f3cae5;
@@ -102,7 +124,7 @@ footer {
 .section-content {
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Your Custom Font', Arial, sans-serif;
     line-height: 1.6;
     text-align: left;
     padding-left: 20px;
@@ -131,7 +153,7 @@ footer {
 .section-content {
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Dancing Script', cursive;/* Cambia 'Pacifico' por el nombre de la fuente que elijas */
+    font-family: 'Your Custom Font', Arial, sans-serif;/* Cambia 'Pacifico' por el nombre de la fuente que elijas */
     line-height: 1.6;
     text-align: left; /* Alineación del texto a la izquierda */
     padding-left: 20px; /* Espacio en el inicio del párrafo */
@@ -157,7 +179,7 @@ footer {
 .section-terceracontent {
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Dancing Script', cursive;/* Cambia 'Pacifico' por el nombre de la fuente que elijas */
+    font-family: 'Your Custom Font', Arial, sans-serif;/* Cambia 'Pacifico' por el nombre de la fuente que elijas */
     line-height: 1.6;
     text-align: left; /* Alineación del texto a la izquierda */
     padding-left: 20px; /* Espacio en el inicio del párrafo */
@@ -183,7 +205,7 @@ footer {
 .section-concuarta {
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Dancing Script', cursive;/* Cambia 'Pacifico' por el nombre de la fuente que elijas */
+    font-family: 'Your Custom Font', Arial, sans-serif;/* Cambia 'Pacifico' por el nombre de la fuente que elijas */
     line-height: 1.6;
     text-align: left; /* Alineación del texto a la izquierda */
     padding-left: 20px; /* Espacio en el inicio del párrafo */
